@@ -134,9 +134,12 @@ h1, h2, h3, h4, h5,
 .ftco-cover {
   background-position: center center; }
   .ftco-cover .ftco-heading {
-    font-size: 45px;
-    line-height: 1.34;
-    color: #fff; }
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    background-color: rgb(255,255,255,0.5);
+    color: #282828; }
     @media screen and (max-width: 768px) {
       .ftco-cover .ftco-heading {
         font-size: 37px;
@@ -544,3 +547,13 @@ textarea {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+.flexbox .col {
+  flex: 1;
+}
