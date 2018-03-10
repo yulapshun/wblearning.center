@@ -254,7 +254,7 @@ textarea {
   @media screen and (max-width: 960px) {
     .ftco-vh-100 {
       height: inherit;
-      padding-top: 5em;
+      padding-top: 0;
       padding-bottom: 5em; } }
 
 .ftco-vh-75 {
