@@ -302,7 +302,9 @@ textarea {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal; }
   .ftco-footer p {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(255, 255, 255, 0.3); 
+font-size: 0.5em;
+}
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.3); }
     .ftco-footer a:hover {
