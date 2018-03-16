@@ -584,3 +584,6 @@ table.price {
 .top-space {
     margin-top: 2em;
 }
+.left {
+    text-align: left;
+}
