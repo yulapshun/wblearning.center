@@ -92,7 +92,7 @@ ul,ol{
 }
 
 .white-text {
-	color: #FFF;
+	color: #fff;
 }
 
 blockquote {
@@ -171,7 +171,7 @@ blockquote:before{
 	background-color: #4586ff;
 	border: 2px solid transparent;
 	border-radius: 40px;
-	color: #FFF;
+	color: #fff;
 	-webkit-transition:0.2s all;
 	transition:0.2s all;
 }
@@ -255,7 +255,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	top:0;
 	z-index:99;
 	border-bottom:1px solid rgba(235, 235, 235, 0.25);
-	background-color:#FFF;
+	background-color:#fff;
 	-webkit-transition:0.2s all;
 	transition:0.2s all;
 }
@@ -266,7 +266,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #header.transparent-nav .main-menu li a {
-	color:#FFF;
+	color:#fff;
 }
 
 .main-menu li a {
@@ -309,7 +309,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		width: 0%;
 		max-width:250px;
 		height: 100vh;
-		background: #FFF;
+		background: #fff;
 		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 		        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 		padding-top: 80px;
@@ -525,8 +525,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 @-webkit-keyframes play-animation {
 	from {
-		-webkit-box-shadow : 0px 0px 0px 0px #FFF;
-		        box-shadow : 0px 0px 0px 0px #FFF;
+		-webkit-box-shadow : 0px 0px 0px 0px #fff;
+		        box-shadow : 0px 0px 0px 0px #fff;
 	}
 	to {
 		-webkit-box-shadow : 0px 0px 0px 10px transparent;
@@ -536,8 +536,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 @keyframes play-animation {
 	from {
-		-webkit-box-shadow : 0px 0px 0px 0px #FFF;
-		        box-shadow : 0px 0px 0px 0px #FFF;
+		-webkit-box-shadow : 0px 0px 0px 0px #fff;
+		        box-shadow : 0px 0px 0px 0px #fff;
 	}
 	to {
 		-webkit-box-shadow : 0px 0px 0px 10px transparent;
@@ -895,11 +895,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .post-pagination .pages li:hover  , .post-pagination .pages li.active {
 	background-color: #4586ff;
-	color:#FFF;
+	color:#fff;
 }
 
 .post-pagination .pages li:hover a {
-	color:#FFF;
+	color:#fff;
 } 
 
 .pagination-back , .pagination-next {
@@ -915,7 +915,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .pagination-next:hover  , .pagination-back:hover  {
-	color:#FFF;
+	color:#fff;
 	background-color:#4586ff;
 }
 
@@ -1050,7 +1050,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .tags-widget .tag:hover {
 	background-color:#4586ff;
 	border-color:#4586ff;
-	color:#FFF;
+	color:#fff;
 }
 
 /*------------------------------------*\
@@ -1096,7 +1096,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	height:40px;
 	line-height:40px;
 	text-align:center;
-	color:#FFF;
+	color:#fff;
 	background-color:#EBEBEB;
 	border-radius:50%;
 	-webkit-transition:0.2s opacity;
@@ -1302,7 +1302,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	top:0;
 	bottom:0;
-	background-color:#FFF;
+	background-color:#fff;
 	z-index:9999;
 }
 
