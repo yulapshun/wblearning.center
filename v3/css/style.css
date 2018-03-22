@@ -118,6 +118,10 @@ blockquote:before{
 	border:1px solid #EBEBEB;
 }
 
+.bg-light {
+    background-color: #f3f7ff;
+}
+
 
 /* --- Section --- */
 .section {
@@ -159,8 +163,8 @@ blockquote:before{
 	top:0;
 	bottom:0;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
-	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
-	opacity: 0.7;
+	background-image: linear-gradient(to bottom, #4586ff 0%, #5792ff 100%);
+	opacity: 0.8;
 }
 
 /* --- Buttons --- */
@@ -202,6 +206,11 @@ blockquote:before{
 	opacity:1;
 }
 
+.yellow-btn {
+    background-color: #ffff00 !important;
+    color: #4586ff !important;
+}
+
 /* --  Input  -- */
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
     height: 40px;
@@ -231,8 +240,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo {
-	margin-top: 10px;
+	margin: 15px 0;
 	display: inline-block;
+    color: #fff;
 }
 
 .navbar-brand .logo > img {
@@ -244,6 +254,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		margin-left:15px;
 	}
 } 
+
+a.logo h1 {
+    font-size: 1.875rem;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+}
+
+.small-text {
+    font-size: 1rem;
+}
 
 /*------------------------------------*\
 	Navigation
@@ -412,7 +433,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #home.hero-area {
-	height:calc(100vh - 80px);
+	height:calc(100vh - 0px);
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -425,6 +446,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	        transform:translateY(-50%);
 	left:0;
 	right:0;
+}
+
+.slogan {
+    color: #ffff00;
+    font-size: 5rem;
+    font-weight: 900;
 }
 
 /* -- Breadcrumb -- */
@@ -631,15 +658,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-top: 1px solid #EBEBEB;
 }
 
-.course .course-details .course-price {
+.course .course-details .course-type {
 	float: right;
 }
 
-.course .course-details .course-price.course-free {
+.course .course-details .course-type.course-regular {
 	color: green;
 }
 
-.course .course-details .course-price.course-premium {
+.course .course-details .course-type.course-joint {
 	color: #4586ff;
 }
 
