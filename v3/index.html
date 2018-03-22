@@ -46,6 +46,12 @@
         <meta name="msapplication-square150x150logo" content="https://wblearning.center/mstile-150x150.png" />
         <meta name="msapplication-wide310x150logo" content="https://wblearning.center/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="https://wblearning.center/mstile-310x310.png" />
+		<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		  $("#footer").load("footer.html"); 
+		});
+		</script>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,43 +63,7 @@
     </head>
 	<body>
 
-		<!-- Header -->
-		<header id="header" class="transparent-nav">
-			<div class="container">
-
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="index.html">
-							<h1>Wind Breaker<span class="small-text"> Learning Centre</span></h1>
-						</a>
-					</div>
-					<!-- /Logo -->
-
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle">
-						<span></span>
-					</button>
-					<!-- /Mobile toggle -->
-				</div>
-
-				<!-- Navigation -->
-				<nav id="nav">
-					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="#about">About</a></li>
-						<li><a href="#courses">Courses</a></li>
-						<li><a href="#tutors">Tutors</a></li>
-						<li><a href="#news">News</a></li>
-                        <li><a href="#application">Application</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-				<!-- /Navigation -->
-
-			</div>
-		</header>
-		<!-- /Header -->
+		<div id="header"></div>
 
 		<!-- Home -->
 		<div id="home" class="hero-area">
@@ -637,72 +607,7 @@
 		</div>
 		<!-- /Contact CTA -->
 
-		<!-- Footer -->
-		<footer id="footer" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<!-- footer logo -->
-					<div class="col-md-6">
-						<div class="footer-logo">
-							<a class="logo" href="index.html">
-								<img src="./img/logo.png" alt="logo">
-							</a>
-						</div>
-					</div>
-					<!-- footer logo -->
-
-					<!-- footer nav -->
-					<div class="col-md-6">
-						<ul class="footer-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-					<!-- /footer nav -->
-
-				</div>
-				<!-- /row -->
-
-				<!-- row -->
-				<div id="bottom-footer" class="row">
-
-					<!-- social -->
-					<div class="col-md-4 col-md-push-8">
-						<ul class="footer-social">
-							<li><a href="https://www.facebook.com/wblearning.center/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/wblearning.center/" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/wind-breaker-learning-centre/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<!--li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li-->
-						</ul>
-					</div>
-					<!-- /social -->
-
-					<!-- copyright -->
-					<div class="col-md-8 col-md-pull-4">
-						<div class="footer-copyright">
-							<span>&copy; 2018 Wind Breaker Learning Centre. All Rights Reserved. Designed by <a href="https://colorlib.com" rel="nofollow">Colorlib</a></span>
-						</div>
-					</div>
-					<!-- /copyright -->
-
-				</div>
-				<!-- row -->
-
-			</div>
-			<!-- /container -->
-
-		</footer>
-		<!-- /Footer -->
+		<div id="footer"></div>
 
 		<!-- preloader -->
 		<div id='preloader'><div class='preloader'></div></div>
