@@ -22,7 +22,6 @@
         <meta property="og:site_name" content="Wind Breaker Learning Centre">
 		<!-- Google font, Bootstrap, Font Awesome, Custom CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css"/>
@@ -47,6 +46,7 @@
         <meta name="msapplication-square150x150logo" content="https://wblearning.center/mstile-150x150.png" />
         <meta name="msapplication-wide310x150logo" content="https://wblearning.center/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="https://wblearning.center/mstile-310x310.png" />
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script> 
 		$(function(){
 			$("#header").load("header.html");
@@ -77,7 +77,43 @@
     </head>
 	<body>
 
-		<div id="header"></div>
+		<!-- Header -->
+		<header id="header" class="transparent-nav">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="index.html">
+							<p>Wind Breaker<span class="small-text"> Learning Centre</span></p>
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="#about">About</a></li>
+						<li><a href="#courses">Courses</a></li>
+						<li><a href="#tutors">Tutors</a></li>
+						<li><a href="#news">News</a></li>
+                        <li><a href="#application">Application</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
 
 		<!-- Home -->
 		<div id="home" class="hero-area">
@@ -538,44 +574,40 @@
 				<div class="row">
 					<div class="section-header text-center">
 						<h2>Latest News</h2>
-						<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+						<p>Check our latest events and offers below.</p>
 					</div>
 
-					<!-- feature -->
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="feature-icon fa fa-flask"></i>
-							<div class="feature-content">
-								<h4>Online Courses</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+							<!-- single blog -->
+							<div class="col-md-6">
+								<div class="single-blog">
+									<div class="blog-img">
+										<a href="#contact">
+											<img src="./img/blog01.jpg" alt="">
+										</a>
+									</div>
+									<h4>Special Offer for Grand Opening</h4>
+									<div class="blog-meta">
+										<p>To celebrate the opening of the Centre, we provide some discounts like new student discount, multi-course discount, multi-section discount, etc. Please <a href="#contact">contact us</a> for details.</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- /feature -->
+							<!-- /single blog -->
 
-					<!-- feature -->
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="feature-icon fa fa-users"></i>
-							<div class="feature-content">
-								<h4>Expert Teachers</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+							<!-- single blog -->
+							<div class="col-md-6">
+								<div class="single-blog">
+									<div class="blog-img">
+										<a href="https://goo.gl/KKc9jk">
+											<img src="./img/blog02.jpg" alt="">
+										</a>
+									</div>
+									<h4>Free Parent-Child Phonics Class</h4>
+									<div class="blog-meta">
+										There will be a free Parent-Child Phonics Class held on Saturday, Mar 24 at 2:30-4:00 pm. Register: <a href="https://goo.gl/KKc9jk">https://goo.gl/KKc9jk</a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- /feature -->
-
-					<!-- feature -->
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="feature-icon fa fa-comments"></i>
-							<div class="feature-content">
-								<h4>Community</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
-							</div>
-						</div>
-					</div>
-					<!-- /feature -->
+							<!-- /single blog -->
 
 				</div>
 				<!-- /row -->
@@ -606,9 +638,137 @@
 
 		</div>
 		<!-- /News -->
+		
+		<!-- Application -->
+		<div id="application" class="section bg-light">
+			
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+					<div class="section-header text-center">
+						<h2>Make an Application</h2>
+						<p>Complete the below application form and submit it to us together with the cheque/bank draft/bank deposit receipt.</p>
+					</div>
+					
+					<!-- Download Form -->
+					<div class="col-md-6">
+						<h3>Application Form</h3>
+						<div class="row">
+							<div class="col-md-6">
+								<h4>Regular Courses</h4>
+								<p>Pre-I/GCSE, IGCSE/ GCSE/ GCE/ IB Courses</p>
+								<a class="btn btn-primary" href="application-form-igcse.pdf"><i class="fa fa-download"></i> Download PDF</a>
+							</div>
+							<div class="col-md-6">
+								<h4>Joint Courses</h4>
+								<p>High-In Phonics/ Grammar/ Mathematics Courses</p>
+								<a class="btn btn-primary" href="application-form-general.pdf"><i class="fa fa-download"></i> Download PDF</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Payment Methods -->
+					<div class="col-md-6">
+						<h3>Payment Methods</h3>
+						<div class="row">
+							<div class="col-md-6">
+								<h4>Cheque/Bank Draft</h4>
+								<p>Crossed cheque/bank draft should be made payable to “High Intelligence Education Co., Ltd.”.</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#chequeModal">
+								  <i class="fa fa-info-circle"></i> More Details
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="chequeModal" tabindex="-1" role="dialog" aria-labelledby="chequeModalLabel" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+										<h5 class="modal-title" id="chequeModalLabel">Cheque/Bank Draft</h5>
+									  </div>
+									  <div class="modal-body">
+										<p>Crossed cheque/bank draft should be made payable to <strong>“High Intelligence Education Co., Ltd.”</strong>. Post-dated cheques will not be accepted. Please write the <strong>[student's name]</strong>, <strong>[course name]</strong>, <strong>[course date/time]</strong> and <strong>[contact telephone number]</strong> on the back of the cheque/bank draft. Please return the cheque together with the application form to the company:</p>
+										  <ul class="fa-ul">
+											  <li><span class="fa-li"><i class="fa fa-location-arrow"></i></span>Mail to the Registration Unit at <strong><a href="https://goo.gl/maps/tkopx9Se6so">Flat B2, 2/F, Lucky Horse Industrial Building, 64 Tong Mi Road, Mong Kok, Kowloon,</a></strong>.</li>
+											  <li><span class="fa-li"><i class="fa fa-location-arrow"></i></span>Apply in person during the office hours at <strong><a href="https://goo.gl/maps/jkddfAdFezC2">Flat D, 5/F, European Asian Bank Building, 749 Nathan Road, Kowloon</a></strong>.<br>
+(Office hours: Mon-Fri 9:30 am – 6:00 pm; Sat 10:00 am – 4:00 pm)</li>
+										  </ul>
+									  </div>
+									  <div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								
+							</div>
+							<div class="col-md-6">
+								<h4>Bank Deposit</h4>
+								<p>Tuition fees can be credited to our Hang Seng Bank / Nanyang Commercial Bank accounts.</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#depositModal">
+								  <i class="fa fa-info-circle"></i> More Details
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="depositModal" tabindex="-1" role="dialog" aria-labelledby="depositModalLabel" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+										<h5 class="modal-title" id="depositModalLabel">Bank Deposit</h5>
+									  </div>
+									  <div class="modal-body">
+										  <p>Tuition fees can be credited to the following accounts. Please write on the deposit receipt: <strong>[student’s name]</strong>, <strong>[course code]</strong>, and <strong>[contact telephone number]</strong>.</p>
+										  <hr>
+										  <p>Account Name: High Intelligence Education Co., Ltd.</p>
+										  <ul>
+											  <li>Hang Seng Bank Account No.: 228-196945-001</li>
+											  <li>Nanyang Commercial Bank Account No.: 043-477-00127625</li>
+										  </ul>
+										  <hr>
+										  <p>Send the application form and bank receipt to us via:</p>
+										  <ul class="fa-ul">
+											  <li><span class="fa-li"><i class="fa fa-whatsapp"></i></span>WhatsApp/WeChat no. <a href="https://api.whatsapp.com/send?phone=85256990450">56990450</a></li>
+											  <li><span class="fa-li"><i class="fa fa-facebook"></i></span>Facebook Messenger/ Instagram Direct <a href="https://m.me/wblearning.center/">@wblearning.center</a></li>
+											  <li><span class="fa-li"><i class="fa fa-envelope"></i></span>E-mail to <a href="mailto:info@wblearning.center">info@wblearning.center</a></li>
+											  <li><span class="fa-li"><i class="fa fa-location-arrow"></i></span>Mail to the Registration Unit at <strong><a href="https://goo.gl/maps/tkopx9Se6so">Flat B2, 2/F, Lucky Horse Industrial Building, 64 Tong Mi Road, Mong Kok, Kowloon,</a></strong>.</li>
+											  <li><span class="fa-li"><i class="fa fa-location-arrow"></i></span>Apply in person during the office hours at <strong><a href="https://goo.gl/maps/jkddfAdFezC2">Flat D, 5/F, European Asian Bank Building, 749 Nathan Road, Kowloon</a></strong>.<br>
+(Office hours: Mon-Fri 9:30 am – 6:00 pm; Sat 10:00 am – 4:00 pm)</li>
+										  </ul>
+										  <hr>
+										  <em>If the applicant fails to provide valid bank receipts for any reason, he/she must make the payment before class. The payment can be refunded after the applicant has provided the relevant bank receipts.</em>
+										  
+									  </div>
+									  <div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- /row -->
+				
+			</div>
+			<!-- /container -->
+			
+		</div>
+		<!-- /Application -->
 
 		<!-- Contact CTA -->
-		<div id="contact-cta" class="section">
+		<div id="contact" class="section">
 
 			<!-- Backgound Image -->
 			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
