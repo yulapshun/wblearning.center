@@ -49,8 +49,9 @@
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script> 
 		$(function(){
-		  $("#header").load("header.html"); 
-		  $("#footer").load("footer.html"); 
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+			$("#price").load("price.html");
 		});
 		</script>
 
@@ -194,11 +195,12 @@
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<span class="course-img">
+								<a href="#" class="course-img" data-toggle="modal" data-target="#igcseModal">
 									<img src="./img/course01.jpg" alt="IGCSE/IB Chinese">
 									<i class="course-link-icon fa fa-link"></i>
-								</span>
-								<a class="course-title" href="#">Chinese</a>
+								</a>
+								<a class="course-title" href="#" data-toggle="modal" data-target="#igcseModal">Chinese</a>
+								<div id="price"></div>
 								<div class="course-details">
 									<span class="course-category">I/GCSE, IB</span>
 									<span class="course-type course-regular">Regular</span>
