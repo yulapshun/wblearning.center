@@ -450,7 +450,7 @@ a.logo h1 {
 
 .slogan {
     color: #ffff00;
-    font-size: 5rem;
+    font-size: 5rem !important;
     font-weight: 900;
 }
 
