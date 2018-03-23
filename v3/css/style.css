@@ -71,10 +71,17 @@ h6 {
     font-size: 1.75rem;
 }
 
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
 a {
 	font-family: "Raleway", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 	color: #374050;
-	font-weight: 700;
+}
+
+a.main-button {
+    font-weight: 700;
 }
 
 a:hover,
@@ -89,6 +96,16 @@ ul,ol{
     margin: 0;
     padding: 0;
     list-style: none
+}
+
+ol.abc {
+    list-style-type: lower-alpha;
+}
+ol.iii {
+    list-style-type: lower-roman;
+}
+ol.number {
+    list-style-type: decimal;
 }
 
 .white-text {
@@ -826,8 +843,22 @@ a.logo h1 {
 
 /* -- Contact Map -- */
 #contact-map {
-	height:260px;
+	height:450px;
 	border-radius:4px;
+}
+
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:400px;
+    width:100%;
+    position:absolute;
 }
 
 /*------------------------------------*\
@@ -932,7 +963,7 @@ a.logo h1 {
 	display: block;
 	text-align: center;
 	border-radius: 40px;
-	background-color: #EBEBEB;
+	background-color: #ebebeb;
 	-webkit-transition: 0.2s all;
 	transition: 0.2s all;
 	height:40px;
