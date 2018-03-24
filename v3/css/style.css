@@ -183,7 +183,7 @@ blockquote:before{
 }
 
 .bg-light {
-    background-color: #f3f7ff;
+    background-color: #e2f0ff;
 }
 
 .border {
@@ -258,6 +258,10 @@ th {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#4586ff), to(#5792ff));
 	background-image: linear-gradient(to bottom, #4586ff 0%, #5792ff 100%);
 	opacity: 0.8;
+}
+
+.bg-floral {
+    background-image: url(../img/floral-background.jpg);
 }
 
 /* --- Buttons --- */
