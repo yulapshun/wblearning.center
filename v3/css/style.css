@@ -303,6 +303,10 @@ th {
 	opacity:1;
 }
 
+.btn {
+	font-weight: bold;
+}
+
 .yellow-btn {
     background-color: #ffff00 !important;
     color: #4586ff !important;
@@ -492,7 +496,7 @@ a.logo h1 {
 .navbar-toggle > span , .navbar-toggle > span:before , .navbar-toggle > span:after {
 	height: 2px;
 	width: 25px;
-	background-color:#374050;
+	background-color:#5792ff;
 }
 
 .navbar-toggle > span:before {
