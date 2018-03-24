@@ -46,12 +46,7 @@
         <meta name="msapplication-square150x150logo" content="https://wblearning.center/mstile-150x150.png" />
         <meta name="msapplication-wide310x150logo" content="https://wblearning.center/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="https://wblearning.center/mstile-310x310.png" />
-		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-		<script> 
-		$(function(){
-			$("#footer").load("footer.html");
-		});
-
+		<script>
 		window.onload = function() {
 		var links = document.links;
 		for (var i = 0, linksLength = links.length; i < linksLength; i++) {
@@ -347,7 +342,7 @@
 					<!-- row -->
 					<div class="row">
                         
-                        <div class="col-md-4">
+                        <div class="col-md-5 col-md-offset-2">
                             <h3>High-In Phonics</h3>
                             <ul class="fa-ul mb-1">
 								<li><span class="fa-li"><i class="fa fa-check"></i></span><strong>Easy</strong> to Learn. Easy to Use.</li>
@@ -360,8 +355,11 @@
                             <a class="btn btn-info" href="https://highintelligence.com.hk/courses/high-in-phonics/"><i class="fa fa-hand-pointer-o"></i> Press Me</a>
 							<div class="empty-space"></div>
                         </div>
+						
+					</div>
                         
-                        <div class="col-md-4">
+					<div class="row">
+                        <div class="col-md-5 col-md-offset-6">
                             <h3>High-In Grammar</h3>
                             <ul class="fa-ul mb-1">
                                 <li><span class="fa-li"><i class="fa fa-check"></i></span>ONE course can <strong>enrich</strong> the English <strong>abilities</strong> in terms of speaking, listening, reading &amp; writing</li>
@@ -371,8 +369,11 @@
                             <a class="btn btn-info" href="https://highintelligence.com.hk/courses/high-in-grammar/"><i class="fa fa-hand-pointer-o"></i> Press Me</a>
 							<div class="empty-space"></div>
                         </div>
+					</div>
                         
-                        <div class="col-md-4">
+					<div class="row">
+						
+                        <div class="col-md-5 col-md-offset-3">
                             <h3>High-In Maths</h3>
                             <ul class="fa-ul mb-1">
 								<li><span class="fa-li"><i class="fa fa-check"></i></span><strong>Master</strong> the Maths basic concepts</li>
@@ -719,7 +720,45 @@ They have achieved brilliant results in both IGCSE &amp; IB exams. They are extr
 		</div>
 		<!-- /Contact Us -->
 
-		<div id="footer"></div>
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="https://www.facebook.com/wblearning.center/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/wblearning.center/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/wind-breaker-learning-centre/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<!--li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li-->
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; 2018 Wind Breaker Learning Centre. All Rights Reserved. <br>
+                                Design Credits: <a href="https://colorlib.com" rel="nofollow">Colorlib</a>, <a href="https://www.everypixel.com" rel="nofollow">Everypixel</a>, <a href="https://www.freepik.com" rel="nofollow">Freepik</a>, <a href="https://fontawesome.com" rel="nofollow">Font Awesome</a></span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
 
 		<!-- preloader -->
 		<div id='preloader'><div class='preloader'></div></div>
@@ -770,7 +809,7 @@ They have achieved brilliant results in both IGCSE &amp; IB exams. They are extr
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/retina.min.js"></script>
+        <!--script type="text/javascript" src="js/retina.min.js"></script>
         <script>retinajs()</script>
 		
 		<!-- WhatsHelp.io widget -->
