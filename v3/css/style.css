@@ -3,7 +3,7 @@ Template Name: HTML Education Template
 Author: yaminncco
 
 Colors:
-	Body 		: #798696
+	Body 		: #48505a
 	Headers 	: #374050
 	Primary 	: #4586ff
 	Grey 		: #EBEBEB
@@ -37,7 +37,8 @@ body {
 	font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #798696;
+    line-height: 1.75;
+    color: #48505a;
 	overflow-x:hidden;
 }
 
@@ -90,6 +91,31 @@ h6 {
 
 .ms-15 {
     margin: auto 15px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.paragraph {
+    text-indent: 3rem;
+}
+
+.emphasis {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.fa-li {
+    color: #4586ff;
 }
 
 a {
@@ -160,6 +186,19 @@ blockquote:before{
     background-color: #f3f7ff;
 }
 
+.border {
+    border: 3px solid #ddd;
+}
+
+th {
+    background-color: #6cb2ff;
+    color: #fff;
+}
+
+.table-beige {
+    background-color: #fff4d4;
+}
+
 
 /* --- Section --- */
 .section {
@@ -175,6 +214,19 @@ blockquote:before{
 
 .section-header {
 	margin-bottom:40px;
+}
+
+.section-heading {
+    background-color: #4586ff;
+    text-align: center;
+}
+
+.heading-text {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #ffff00;
+    padding: 40px;
+    margin: 0;
 }
 
 .empty-space {
@@ -203,7 +255,7 @@ blockquote:before{
 	right:0;
 	top:0;
 	bottom:0;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4586ff), to(#5792ff));
 	background-image: linear-gradient(to bottom, #4586ff 0%, #5792ff 100%);
 	opacity: 0.8;
 }
@@ -934,7 +986,26 @@ a.logo h1 {
 }
 
 .single-blog .blog-meta .blog-meta-comments > a {
-	color: #798696;
+	color: #48505a;
+}
+
+.news-card {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    width: 250px;
+    max-width: 100%;
+    height: 300px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.news-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /* -- Pagination -- */
@@ -1065,7 +1136,7 @@ a.logo h1 {
 .category-widget .category span {
 	font-size: 1rem;
 	margin-left:10px;
-	color:#798696;
+	color:#48505a;
 }
 
 /*-- Sidebar Posts --*/
@@ -1120,8 +1191,8 @@ a.logo h1 {
 	margin-top: 5px;
 	padding: 5px 15px;
 	border-radius: 40px;
-	border: 1px solid #EBEBEB;
-	color: #798696;
+	border: 1px solid #ebebeb;
+	color: #48505a;
 	-webkit-transition: 0.2s all;
 	transition: 0.2s all;
 }
@@ -1448,4 +1519,7 @@ a.logo h1 {
     background-color:#8fb6ff;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
+}
+a#scroll {
+    display: none;
 }
