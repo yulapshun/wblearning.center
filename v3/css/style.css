@@ -938,7 +938,7 @@ a.logo h1 {
 .map iframe{
     left:0;
     top:0;
-    height:500px;
+    height:450px;
     width:100%;
     position:absolute;
 }
@@ -998,7 +998,7 @@ a.logo h1 {
 }
 
 .news-card {
-    background: #fff;
+    background: #fffcf6;
     border: 1px solid #ebebeb;
     border-radius: 2px;
     display: inline-block;
@@ -1019,7 +1019,19 @@ a.logo h1 {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.news-card:hover, .course-card:hover {
+.tutor-card {
+    background: #fff;
+	border: 1px solid #ebebeb;
+    border-radius: 2px;
+    display: inline-block;
+	margin: 1rem;
+    height: 300px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.news-card:hover, .course-card:hover, .tutor-card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
