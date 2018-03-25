@@ -1536,7 +1536,8 @@ a.logo h1 {
     display:none;
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
-    border-radius:60px
+    border-radius:60px;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 #scroll span {
     position:absolute;
