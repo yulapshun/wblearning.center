@@ -1002,16 +1002,34 @@ a.logo h1 {
 	color: #48505a;
 }
 
-.news-card {
-    background: #fffcf6;
+.flex-container {
+	display: -webkit-flex; /* Safari */
+	-webkit-flex-flow: row wrap; /* Safari */
+	-webkit-justify-content: center; /* Safari */
+	-webkit-align-items: stretch; /* Safari */
+	-webkit-align-content: stretch; /* Safari */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.flex-item {
+	-webkit-flex: 0 1 auto; /* Safari */
+	flex: 0 1 auto;
+	width: 25%;
+	margin: 1rem;
+	padding: 1rem 2rem;
+	background: #fffcf6;
     border: 1px solid #ebebeb;
     border-radius: 2px;
-    display: inline-block;
-    margin: 1rem;
-    height: 300px;
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.flex-item:hover, .course-card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .course-card {
@@ -1022,22 +1040,6 @@ a.logo h1 {
     position: relative;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.tutor-card {
-    background: #fff;
-	border: 1px solid #ebebeb;
-    border-radius: 2px;
-    display: inline-block;
-	margin: 1rem;
-    height: 300px;
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.news-card:hover, .course-card:hover, .tutor-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /* -- Pagination -- */
