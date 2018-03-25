@@ -1453,6 +1453,10 @@ a.logo h1 {
 	.post-pagination .pages {
 		display:none;
 	}
+	
+	.flex-item {
+		width: 40%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1474,6 +1478,10 @@ a.logo h1 {
 	
 	.blog-reply-form .input.email-input {
 		margin-left: 0px;
+	}
+	
+	.flex-item {
+		width: 100%;
 	}
 }
 
