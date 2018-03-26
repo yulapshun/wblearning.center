@@ -318,6 +318,10 @@ h6 {
     font-weight: 700;
 }
 
+.nobr {
+	white-space: nowrap;
+}
+
 .newstype {
     font-size: 1rem;
     color: gray;
