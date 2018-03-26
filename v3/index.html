@@ -22,7 +22,7 @@
         <meta property="og:site_name" content="Wind Breaker Learning Centre">
 		<!-- Google font, Bootstrap, Font Awesome, Custom CSS -->
         <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/raleway.css">
+		<link rel="stylesheet" href="css/lato.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -130,7 +130,7 @@
 		<!-- /Home -->
         
         <div class="empty-space"></div>
-        <h2 class="text-center">Welcome to <br>Wind Breaker Learning Centre</h2>
+        <h2 class="text-center">Welcome</h2>
         <div class="empty-space"></div>
         
         <!-- News -->
@@ -153,20 +153,20 @@
 
 						<div class="flex-item">
                             <p class="news-type">IGCSE/GCSE/GCE/IB</p>
-							<h3>Multi-course Discount</h3>
-							<p>Enjoy <strong>10% off</strong> discount for applying 2 courses.</p>
+							<h3>Two Courses Discount</h3>
+							<p>Enjoy <strong>10% off</strong>!</p>
 						</div>
 
 						<div class="flex-item">
                             <p class="news-type">IGCSE/GCSE/GCE/IB</p>
-							<h3>Multi-section Discount</h3>
-							<p>Enjoy <strong>10% off</strong> discount for applying 2 sections.</p>
+							<h3>Two Sections Discount</h3>
+							<p>Enjoy <strong>10% off</strong>!</p>
 						</div>
 
 						<div class="flex-item">
                             <p class="news-type">IGCSE/GCSE/GCE/IB</p>
 							<h3>Private Group Discount</h3>
-							<p>Enjoy <strong>15% off</strong> discount for group of 4.</p>
+							<p>Enjoy <strong>15% off</strong> discount for group <nobr>of 4</nobr>.</p>
 						</div>
 
 						<div class="flex-item">
@@ -234,13 +234,20 @@
 						<p class="text-center mb-3">We offer a wide range of courses.</p>
 
 						<h3 class="text-center">A. IGCSE/GCSE/GCE/IB Regular Courses</h3>
-						<ul class="emphasis text-center">
-							<li class="mt-1"><i class="fa fa-clock-o blue-text"></i> Flexible time</li>
-							<li class="mt-1"><i class="fa fa-graduation-cap blue-text"></i> Enthusiastic tutors</li>
-							<li class="mt-1"><i class="fa fa-money blue-text"></i> Resonable fees</li>
-						</ul>
-						
+                        <div class="row">
+                            
+                            <div class="col-md-5 col-md-offset-4">
+                                <ul class="fa-ul emphasis">
+                                    <li class="mt-1"><span class="fa-li"><i class="fa fa-clock-o"></i></span>Flexible time</li>
+                                    <li class="mt-1"><span class="fa-li"><i class="fa fa-graduation-cap"></i></span>Enthusiastic tutors</li>
+                                    <li class="mt-1"><span class="fa-li"><i class="fa fa-money"></i></span>Resonable fees</li>
+                                </ul>
+                            </div>
+                        
+                        </div>
+
 					</div>
+                    
 				</div>
 						
 						<hr class="section-hr">
@@ -250,11 +257,11 @@
 					<div class="col-md-8 col-md-offset-2">
 
 						<h3 class="text-center text-center">B. Co-organized Courses on <br>English Phonics, English Grammar &amp; Mathematics</h3>
-						<ul class="emphasis text-center">
-							<li class="mt-1"><i class="fa fa-thumbs-o-up blue-text"></i> Programmes with high quality &amp; good reputation</li>
-							<li class="mt-1"><i class="fa fa-check blue-text"></i> Quality Assurance by the Quality Education Centre of a local university</li>
-							<li class="mt-1"><i class="fa fa-heart blue-text"></i> Programmes are practical, interesting &amp; easy to learn</li>
-							<li class="mt-1"><i class="fa fa-globe blue-text"></i> Programmes run in Hong Kong &amp; Macao</li>
+						<ul class="fa-ul emphasis">
+							<li class="mt-1"><span class="fa-li"><i class="fa fa-thumbs-o-up"></i></span>Programmes with high quality &amp; good reputation</li>
+							<li class="mt-1"><span class="fa-li"><i class="fa fa-check"></i></span>Quality Assurance by the Quality Education Centre of a local university</li>
+							<li class="mt-1"><span class="fa-li"><i class="fa fa-heart"></i></span>Programmes are practical, interesting &amp; easy to learn</li>
+							<li class="mt-1"><span class="fa-li"><i class="fa fa-globe"></i></span>Programmes run in Hong Kong &amp; Macao</li>
 						</ul>
 						
 					</div>
@@ -681,7 +688,52 @@ They have achieved brilliant results in both IGCSE &amp; IB exams. They are extr
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 						  <div class="card-body">
                               <p class="ms-15">If classes are cancelled due to bad weather, they will be re-arranged or postponed.</p>
-                              <p class="ms-15">Please refer to the “Bad Weather Policy” for bad weather conditions.</p>
+                              <p class="ms-15">Please refer to the <a class="pointer" data-toggle="modal" data-target="#badWeather">“Bad Weather Policy”</a> for bad weather conditions.</p>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="badWeather" tabindex="-1" role="dialog" aria-labelledby="badWeatherLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        <h5 class="modal-title" id="badWeatherLabel">Bad Weather Policy</h5>
+                                      </div>
+                                      <div class="modal-body ms-15">
+                                        <p>Tropical cyclones and heavy persistent rain arrangements:</p>
+                                          <table class="table striped table-bordered border centered rwd-table">
+                                              <thead>
+                                                  <tr>
+                                                      <th>Tropical Cyclone Warning Signal</th><th>Rainstorm Warning Signal</th><th>Arrangement</th>
+                                                  </tr>
+                                              </thead>
+                                              <tbody>
+                                                  <tr>
+                                                      <td>No. 1</td><td>AMBER</td><td>As usual</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>No. 3</td><td>RED</td><td>As usual</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>No. 8 or above</td><td>BLACK</td><td>Classes will be cancelled if the signal has being issued 2 hours before the classes.</td>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                          <ol class="number">
+                                              <li>2 hours after the Typhoon Signal No.8 or above / BLACK Rainstorm Warning Signal is lowered, all classes will be held as usual.</li>
+                                              <li>All classes in session will continue until the completion of the sessions when Typhoon Signal No.8 or above / BLACK Rainstorm Warning Signal is issued. If the signal has being issued after the class, for safety reason, students should stay at the Centre or leave with guardian.</li>
+                                              <li>Usually, classes cancelled because of bad weather will be postponed or re-arranged.</li>
+                                          </ol>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              
+                              
 						  </div>
 						</div>
 					  </div>
