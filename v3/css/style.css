@@ -661,6 +661,7 @@ a.logo h1 {
     color: #ffff00;
     font-size: 5rem !important;
     font-weight: 900;
+    line-height: 1.25;
 }
 
 /* -- Breadcrumb -- */
