@@ -8,7 +8,7 @@ Colors:
 	Primary 	: #4586ff
 	Grey 		: #EBEBEB
 
-Fonts: Raleway
+Fonts: Lato
 
 Table OF Contents
 ------------------------------------
@@ -33,7 +33,7 @@ Table OF Contents
 \*------------------------------------*/
 /* --- typography --- */
 body {
-    font-family: "Raleway", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    font-family: "Lato", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 	font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: 1px;
@@ -130,7 +130,7 @@ h6 {
 }
 
 a {
-	font-family: "Raleway", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+	font-family: "Lato", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 	color: #4586ff;
 }
 
@@ -144,6 +144,10 @@ a:focus{
     outline: none;
 	color: #3e78e5;
 	opacity: 0.9;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 ul,ol{
@@ -667,7 +671,7 @@ a.logo h1 {
 /* -- Breadcrumb -- */
 .hero-area-tree li {
 	display:inline-block;
-	font-family: "Raleway", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+	font-family: "Lato", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 	font-weight:600;
 	font-size: 1rem;
 	color:rgba(255, 255, 255, 0.8);
