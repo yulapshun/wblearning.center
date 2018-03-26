@@ -244,7 +244,7 @@ table.centered th, table.centered td {
 .rwd-table td:before {
     content: attr(data-th) " : ";
     font-weight: bold;
-    width: 12rem;
+    width: 15rem;
     display: inline-block;
 }
 
@@ -353,8 +353,8 @@ table.centered th, table.centered td {
 	right:0;
 	top:0;
 	bottom:0;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#4586ff), to(#b4ceff));
-	background-image: linear-gradient(to bottom, #4586ff 60%, #5792ff 70%, #fff 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4586ff), to(#5792ff));
+	background-image: linear-gradient(to bottom, #4586ff, #5792ff);
 	opacity: 0.8;
 }
 
