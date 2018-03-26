@@ -42,11 +42,13 @@ body {
 	overflow-x:hidden;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
 	margin-top: 12px;
 	margin-bottom: 15px;
 	font-weight: 600;
 	color: #374050;
+    letter-spacing: 1px;
+    line-height: 1.75;
 }
 
 h1 {
@@ -125,10 +127,6 @@ h6 {
 
 .fa-li, .blue-text {
     color: #4586ff;
-}
-
-.line-space {
-    line-height: 1.75;
 }
 
 a {
