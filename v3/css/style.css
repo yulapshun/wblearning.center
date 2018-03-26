@@ -295,7 +295,7 @@ table.centered th, table.centered td {
     }
 }
 
-img {
+img, .bg-image, .bg-graduation, .bg-floral {
     image-rendering: optimizeSpeed;
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
