@@ -131,8 +131,12 @@
        width: 80%;
      }
 
+     #HighInMathsTime table {
+       table-layout: fixed;
+     }
+
      #HighInMathsTime table tbody tr td {
-       word-wrap: anywhere;
+       word-wrap: break-word;
      }
 
      @media (min-width: 992px) {
@@ -142,6 +146,12 @@
 
        .free-lesson-col-right {
          padding-left: 0;
+       }
+     }
+
+     @media (min-width: 768px) {
+       #HighInMathsTime .modal-dialog {
+         width: 760px;
        }
      }
     </style>
